@@ -1,7 +1,7 @@
 name: Daily Wisdom
 on:
   schedule:
-    - cron: "0 2 * * *"   # 02:00 UTC 
+    - cron: "8 2 * * *"   # 02:00 UTC 
   workflow_dispatch:
     
 permissions:
@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   update:
-    if: github.ref == 'refs/heads/main'
+    if: github.event_name == 'schedule' || github.ref_name == 'main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
