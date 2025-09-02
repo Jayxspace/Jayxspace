@@ -1,0 +1,66 @@
+name: Daily Wisdom
+on:
+  schedule:
+    - cron: "0 2 * * *"   # 02:00 UTC 
+  workflow_dispatch:
+    
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-wisdom
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Update quote block in README
+        run: |
+          python3 - << 'PY'
+          import re, pathlib, random, datetime, json
+          from urllib.request import urlopen
+          from urllib.error import URLError
+
+          FALLBACK = [
+            "Simplicity is the soul of efficiency. — Austin Freeman",
+            "Programs must be written for people to read. — Harold Abelson",
+            "Premature optimization is the root of all evil. — Donald Knuth",
+            "Talk is cheap. Show me the code. — Linus Torvalds",
+            "The only way to go fast is to go well. — Robert C. Martin",
+          ]
+
+          def fetch_quote():
+            try:
+              with urlopen("https://api.quotable.io/random", timeout=10) as r:
+                data = json.loads(r.read().decode("utf-8"))
+                return f"{data['content']} — {data['author']}"
+            except Exception:
+              return random.choice(FALLBACK)
+
+          quote = fetch_quote()
+          today = datetime.datetime.utcnow().strftime("%Y-%m-%d")
+          new_block = f"<!-- wisdom:start -->\n> {quote}\n\n*Updated on {today} UTC*\n<!-- wisdom:end -->"
+
+          p = pathlib.Path("README.md")
+          s = p.read_text(encoding="utf-8")
+          s2 = re.sub(r"(?s)<!-- wisdom:start -->.*?<!-- wisdom:end -->", new_block, s)
+          if s2 != s:
+            p.write_text(s2, encoding="utf-8")
+          PY
+
+      - name: Commit changes if any
+        run: |
+          if ! git diff --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git pull --rebase origin main || true
+            git add README.md
+            git commit -m "chore: daily wisdom update"
+            git push origin HEAD:main
+          fi
