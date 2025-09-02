@@ -1,7 +1,7 @@
 name: Daily Wisdom
 on:
   schedule:
-    - cron: "8 2 * * *"   # 02:00 UTC 
+    - cron: "20 2 * * *"   # 02:00 UTC 
   workflow_dispatch:
     
 permissions:
@@ -13,11 +13,11 @@ concurrency:
 
 jobs:
   update:
-    if: github.event_name == 'schedule' || github.ref_name == 'main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main          
           fetch-depth: 1
 
       - name: Update quote block in README
