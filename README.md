@@ -31,9 +31,9 @@
 
 ## ✍️ Jay’s Coding Wisdom
 <!-- wisdom:start -->
-> Programs must be written for people to read. — Harold Abelson
+> Simplicity is the soul of efficiency. — Austin Freeman
 
-*Updated on 2025-09-22 UTC*
+*Updated on 2025-09-23 UTC*
 <!-- wisdom:end -->
 
 ---
