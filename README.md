@@ -31,9 +31,9 @@
 
 ## ✍️ Jay’s Coding Wisdom
 <!-- wisdom:start -->
-> Talk is cheap. Show me the code. — Linus Torvalds
+> The only way to go fast is to go well. — Robert C. Martin
 
-*Updated on 2025-10-15 UTC*
+*Updated on 2025-10-16 UTC*
 <!-- wisdom:end -->
 
 ---
