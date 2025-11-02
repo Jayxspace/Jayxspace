@@ -31,9 +31,9 @@
 
 ## ✍️ Jay’s Coding Wisdom
 <!-- wisdom:start -->
-> Simplicity is the soul of efficiency. — Austin Freeman
+> Talk is cheap. Show me the code. — Linus Torvalds
 
-*Updated on 2025-11-01 UTC*
+*Updated on 2025-11-02 UTC*
 <!-- wisdom:end -->
 
 ---
