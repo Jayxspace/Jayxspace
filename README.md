@@ -31,9 +31,9 @@
 
 ## ✍️ Jay’s Coding Wisdom
 <!-- wisdom:start -->
-> Premature optimization is the root of all evil. — Donald Knuth
+> The only way to go fast is to go well. — Robert C. Martin
 
-*Updated on 2025-11-17 UTC*
+*Updated on 2025-11-18 UTC*
 <!-- wisdom:end -->
 
 ---
