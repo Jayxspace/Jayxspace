@@ -21,11 +21,23 @@
 
 ### 🧩 Projects
 
-- **Wealth Manager** · React  
-  [![Demo - Live](https://img.shields.io/badge/Demo-Live-0ea5e9?logo=firefox&logoColor=white)](https://main.d4tpjv4j2qfbh.amplifyapp.com/)
+- **Orbital Tracker** · Three.js, JavaScript, AWS  
+  [![Demo - Live](https://img.shields.io/badge/Demo-Live-0ea5e9?logo=firefox&logoColor=white)](https://orbital-tracker.x-space.org/)
 
-- **Dev Handbook** · Docusaurus  
-  [![Docs - Open](https://img.shields.io/badge/Docs-Open-10b981?logo=readthedocs&logoColor=white)](https://main.d14ojvt2csxlb8.amplifyapp.com/)
+- **Wealth Management Center** · React, TypeScript, AWS  
+  [![Demo - Live](https://img.shields.io/badge/Demo-Live-0ea5e9?logo=firefox&logoColor=white)](https://wealth-pro.x-space.org)
+
+- **Crypto Vision** · React, TypeScript, API  
+  [![Demo - Live](https://img.shields.io/badge/Demo-Live-0ea5e9?logo=firefox&logoColor=white)](https://crypto.x-space.org)
+
+- **Global FlightMap** · React, JavaScript, APIs  
+  [![Demo - Live](https://img.shields.io/badge/Demo-Live-0ea5e9?logo=firefox&logoColor=white)](https://flymap.x-space.org/)
+
+- **Net Speed Tester** · React, AWS, Generative AI  
+  [![Demo - Live](https://img.shields.io/badge/Demo-Live-0ea5e9?logo=firefox&logoColor=white)](https://netspeed.x-space.org)
+
+- **Developer Handbook** · React, TypeScript  
+  [![Docs - Open](https://img.shields.io/badge/Docs-Open-10b981?logo=readthedocs&logoColor=white)](https://devhandbook.x-space.org/)
 
 ---
 
