@@ -43,9 +43,9 @@
 
 ## ✍️ Jay’s Coding Wisdom
 <!-- wisdom:start -->
-> Premature optimization is the root of all evil. — Donald Knuth
+> Simplicity is the soul of efficiency. — Austin Freeman
 
-*Updated on 2026-02-17 UTC*
+*Updated on 2026-02-18 UTC*
 <!-- wisdom:end -->
 
 ---
