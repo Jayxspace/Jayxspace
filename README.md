@@ -43,9 +43,9 @@
 
 ## ✍️ Jay’s Coding Wisdom
 <!-- wisdom:start -->
-> Talk is cheap. Show me the code. — Linus Torvalds
+> Premature optimization is the root of all evil. — Donald Knuth
 
-*Updated on 2026-02-27 UTC*
+*Updated on 2026-02-28 UTC*
 <!-- wisdom:end -->
 
 ---
