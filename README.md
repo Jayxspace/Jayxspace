@@ -43,9 +43,9 @@
 
 ## ✍️ Jay’s Coding Wisdom
 <!-- wisdom:start -->
-> Programs must be written for people to read. — Harold Abelson
+> Talk is cheap. Show me the code. — Linus Torvalds
 
-*Updated on 2026-03-28 UTC*
+*Updated on 2026-03-29 UTC*
 <!-- wisdom:end -->
 
 ---
