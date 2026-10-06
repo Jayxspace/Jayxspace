@@ -43,9 +43,9 @@
 
 ## ✍️ Jay’s Coding Wisdom
 <!-- wisdom:start -->
-> The only way to go fast is to go well. — Robert C. Martin
+> Programs must be written for people to read. — Harold Abelson
 
-*Updated on 2026-10-05 UTC*
+*Updated on 2026-10-06 UTC*
 <!-- wisdom:end -->
 
 ---
