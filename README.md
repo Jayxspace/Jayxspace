@@ -43,9 +43,9 @@
 
 ## ✍️ Jay’s Coding Wisdom
 <!-- wisdom:start -->
-> The only way to go fast is to go well. — Robert C. Martin
+> Simplicity is the soul of efficiency. — Austin Freeman
 
-*Updated on 2026-11-05 UTC*
+*Updated on 2026-11-06 UTC*
 <!-- wisdom:end -->
 
 ---
