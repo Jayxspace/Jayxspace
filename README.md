@@ -43,9 +43,9 @@
 
 ## ✍️ Jay’s Coding Wisdom
 <!-- wisdom:start -->
-> Programs must be written for people to read. — Harold Abelson
+> Premature optimization is the root of all evil. — Donald Knuth
 
-*Updated on 2026-11-20 UTC*
+*Updated on 2026-11-21 UTC*
 <!-- wisdom:end -->
 
 ---
